@@ -1,1 +1,35 @@
 
+body{
+    padding: 0px;
+    margin: 0px; 
+    background-color: hsl(212, 45%, 89%); 
+}
+.sec img{
+     width: 100%;
+     border-radius: 20px;
+
+}
+.sec{
+    display: block;
+    margin :auto;
+    margin-top: 130px;
+    padding: 10px;
+    width: 250px; 
+    background-color: #fff;;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+.sec p{
+    font-size : 15px;
+    color: hsl(220, 15%, 55%);
+
+}
+.sec h4{
+    color: hsl(218, 44%, 22%);
+}
+@media(max-width:375px){
+    .sec{
+    margin-top: 85px;
+    }
+}
